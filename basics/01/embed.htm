@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en-us">
+<head>
+   <meta charset="UTF-8">
+   <title>Embed JavaScript</title>
+   <link rel="stylesheet" href="js5.css">
+</head>
+<body>
+   <p>Text in HTML</p>
+   <script>
+      document.write("<p>Text in JavaScript</p>");
+   </script>
+   <p>Text in HTML</p>
+   <script>
+      document.write("<p>JavaScript, double quotation marks</p>");
+      document.write('<p>JavaScript, single quotation marks</p>');
+
+      document.write("<p>Single quotation marks <span style='font-weight:bold;'>"
+         + " inside </span> double quotation marks</p>");
+      document.write('<p>Doouble quotation marks <span style="font-weight:bold;">'
+         + ' inside </span> single quotation marks</p>');
+   </script>
+</body>
+</html>
