@@ -4,7 +4,7 @@
   /**
    * Los operador logicos && (and) y ||(or)
    * Con el and logico, todas las condiciones individuales deben ser true para que la conficion entera sea true.
-   * Con el or logico, una condicion es true es suficiente para que la condicion entera sea true
+   * Con el or logico, una condicion que sea true es suficiente para que la condicion entera sea true
    * el operador logico !, permite hacer un negacion, este operador cambia el valor true a false, el valor true cambia a false
    */
 
