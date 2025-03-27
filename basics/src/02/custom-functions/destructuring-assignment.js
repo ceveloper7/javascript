@@ -10,7 +10,7 @@
     x = y;
     y = temp;
     document.write("Before the return: " + x + " " + y + "<br>");
-
+    // el resultado se pasa a un campo
     return [x, y];
   }
   
