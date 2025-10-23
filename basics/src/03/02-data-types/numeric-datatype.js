@@ -1,6 +1,6 @@
 'use strict';
 
-export default function usingDataTypes() {
+export default function usingNumericDataType() {
   // binary numbers - start with 0b
   const num1 = 0b01010101;
   console.info(num1);
